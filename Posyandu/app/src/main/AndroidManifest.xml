@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.adefitri.posyandu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_logo"
+        android:label="Posyandu Nusa Indah"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.login.Info_kader"></activity>
+        <activity android:name=".activity.pengunjung.ImunisasiInfo" />
+        <activity android:name=".activity.pengunjung.Masker" />
+        <activity android:name=".activity.pengunjung.CuciTangan" />
+        <activity android:name=".activity.pengunjung.Gejala" />
+        <activity android:name=".activity.pengunjung.Germas" />
+        <activity android:name=".activity.kader.FormAkunPengunjung" />
+        <activity android:name=".activity.kader.AkunPengunjung" />
+        <activity android:name=".activity.gizi.KunjunganPosyanduDetail" />
+        <activity android:name=".activity.gizi.KunjunganPosyanduTanggal" />
+        <activity android:name=".activity.gizi.KunjunganPosyandu" />
+        <activity android:name=".activity.gizi.FormAkunGizi" />
+        <activity android:name=".activity.kader.FormAkunKader" />
+        <activity android:name=".activity.gizi.ProfilGizi" />
+        <activity android:name=".activity.pengunjung.KunjunganCovid" />
+        <activity android:name=".activity.pengunjung.DetailKjBayiPengunjung" />
+        <activity android:name=".activity.pengunjung.KunjunganBayiPengunjung" />
+        <activity android:name=".activity.pengunjung.ImunisasiPengunjung" />
+        <activity android:name=".activity.pengunjung.FormAkun" />
+        <activity android:name=".activity.pengunjung.ProfilPengunjung" />
+        <activity android:name=".activity.kader.FormCovid19" />
+        <activity android:name=".activity.kader.FormImunisasi" />
+        <activity android:name=".activity.kader.Covid19" />
+        <activity android:name=".activity.kader.Imunisasi" />
+        <activity android:name=".activity.kader.FormKjBayi" />
+        <activity android:name=".activity.kader.KunjunganBayi" />
+        <activity android:name=".activity.pengunjung.Jadwal_Posyandu2" />
+        <activity android:name=".activity.kader.ProfilKader" />
+        <activity android:name=".activity.kader.DetailBayi" />
+        <activity android:name=".activity.kader.FormBayi" />
+        <activity android:name=".activity.kader.Bayi" />
+        <activity
+            android:name=".activity.login.LoginPetugas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.login.LoginPengunjung"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.kader.FormKjIbuHamil" />
+        <activity android:name=".activity.kader.KunjunganIbuHamil" />
+        <activity android:name=".activity.kader.FormJadwalPosyandu" />
+        <activity android:name=".activity.kader.DetailIbuHamil" />
+        <activity android:name=".activity.kader.FormIbuHamil" />
+        <activity android:name=".activity.kader.IbuHamil" />
+        <activity android:name=".activity.kader.JadwalPosyandu" />
+        <activity android:name=".activity.gizi.HomeGizi" />
+        <activity android:name=".activity.pengunjung.HomePengunjung" />
+        <activity android:name=".activity.kader.HomeKader" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        tools:ignore="ManifestOrder" />
+
+</manifest>

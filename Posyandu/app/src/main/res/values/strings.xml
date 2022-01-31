@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Posyandu</string>
+    <string name="title_activity_bayi_balita">BayiBalita</string>
+    <string name="attention">* Setelah berhasil menyimpan data baru, Anda akan diminta Login kembali</string>
+    <string-array name="petugas">
+        <item>Kader</item>
+        <item>Gizi</item>
+    </string-array>
+    <string-array name="jk">
+        <item>Perempuan</item>
+        <item>Laki-Laki</item>
+    </string-array>
+    <string-array name="sasaran">
+        <item>Sasaran</item>
+        <item>Bukan Sasaran</item>
+    </string-array>
+    <string-array name="opsi">
+        <item>Ya</item>
+        <item>Tidak</item>
+    </string-array>
+    <string-array name="gizi">
+        <item>Buruk</item>
+        <item>Kurang</item>
+        <item>Baik</item>
+        <item>Lebih</item>
+    </string-array>
+    <string-array name="vaksin">
+        <item>HB0</item>
+        <item>BCG, Polio 1</item>
+        <item>DPT-HB-Hib 1, Polio 2</item>
+        <item>DPT-HB-Hib 2, Polio 3</item>
+        <item>DPT-HB-Hib 3, Polio 4, IPV</item>
+        <item>Campak</item>
+        <item>DPT-HB-Hib Lanjutan</item>
+        <item>Campak Lanjutan</item>
+    </string-array>
+
+</resources>

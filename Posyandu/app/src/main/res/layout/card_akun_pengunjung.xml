@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="6dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+    <View
+        android:layout_width="8dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:padding="8dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username : "
+                android:textSize="16sp"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:id="@+id/tv_username_pengunjung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yuna"
+                android:textSize="16sp"
+                android:textColor="@color/colorAccent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password  : "
+                android:textSize="16sp"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xxxxxx"
+                android:textSize="16sp"
+                android:textColor="@color/colorAccent"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_id_login_pengunjung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/tv_id_bayi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/tv_password_pengunjung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+    </LinearLayout>
+</LinearLayout>
+<ImageView
+    android:id="@+id/ic_delete"
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:src="@drawable/ic_delete"
+    android:layout_marginRight="10dp"
+    android:layout_gravity="center_vertical|end"/>
+</androidx.cardview.widget.CardView>
